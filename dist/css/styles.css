@@ -84,7 +84,12 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-image: url(assets/windowsBackground.jpg);
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto; 
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -11506,4 +11511,27 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.github {
+    background-color: #6610f2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+}
+.linkedin {
+  background-color: #6610f2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
 }
